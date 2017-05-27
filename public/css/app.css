@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,cyrillic);
+/*Fonts*/
+/*Colors*/
+/*Social*/
+/*---FLEXBOX MODEL PREFIX---*/
+/*-----------------------------------------------Main and layouts-----------------------------------------------------*/
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: inherit !important;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background: #555;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.pages {
+  width: 100%;
+  margin: 100px 0 0;
+  padding: 45px 0 65px;
+  background: #f4f4f4;
+  color: #555;
+}
+
+.empty-text {
+  text-align: center;
+  font-size: .875rem;
+  color: #969696;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.pac-container {
+  z-index: 9999;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
+  width: 100%;
+  min-height: 40px;
+  margin-bottom: 15px;
+}
+
+/*---------------------INVALID-----------------------*/
+.invalid__msg {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  font-size: 0.6875rem;
+  line-height: 0.8125rem;
+}
+
+.invalid {
+  border-color: #ed1c24;
+}
+
+.invalid + .input__error {
+  display: block;
+}
+
+.invalid .input {
+  border-color: #ed1c24;
+}
+
+.invalid .input:focus {
+  border-color: #ed1c24;
+  box-shadow: inset 0px 0px 10px 0px red;
+}
+
+.invalid .invalid__msg {
+  display: -webkit-box;
+  display: flex;
+  color: #ed1c24;
+}
+
+/*------------------------------------------------------LINK----------------------------------------------------------*/
+.link {
+  color: #0083c7;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=app.css.map */
