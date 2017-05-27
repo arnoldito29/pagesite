@@ -1,0 +1,51 @@
+/*------------------------------------------------------POSITION------------------------------------------------------*/
+.content {
+  &__start {
+    @include justify-content(flex-start);
+  }
+
+  &__center {
+    @include justify-content(center);
+  }
+
+  &__end {
+    @include justify-content(flex-end);
+  }
+
+  &__space-between {
+    @include justify-content(space-between);
+  }
+}
+
+/*-------------------------------------------------*/
+.align {
+  &__start {
+    @include align-items(flex-start);
+  }
+
+  &__center {
+    @include align-items(center);
+  }
+
+  &__end {
+    @include align-items(flex-end);
+  }
+}
+
+/*-------------------------------------------------*/
+.alignself {
+  &__start {
+    @include align-self(flex-start);
+  }
+  &__end {
+    @include align-self(flex-end);
+  }
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.none {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
